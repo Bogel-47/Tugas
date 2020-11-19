@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2FFEA51B-7E36-203B-CC07-EF5AEB050932" name="COUNTRIES">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-01 01:54:16 UTC</createdTime>
+<ownerDesignName>tugas 5</ownerDesignName>
+<engineerTo>
+<item key="7BC3F0D7-DF4D-CA96-6B29-27969BF25C1F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="A03DB45E-AA8C-4C21-DDBB-E444CAE24AD5">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-01 01:54:28 UTC</createdTime>
+<ownerDesignName>tugas 5</ownerDesignName>
+<engineerTo>
+<item key="7BC3F0D7-DF4D-CA96-6B29-27969BF25C1F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAME" id="541BAA51-2A5F-5222-9E9F-86D93CE2F765">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-01 01:54:57 UTC</createdTime>
+<ownerDesignName>tugas 5</ownerDesignName>
+<engineerTo>
+<item key="7BC3F0D7-DF4D-CA96-6B29-27969BF25C1F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SYMBOL" id="45F64568-F6A5-EBAD-D221-E8FE16C7B57A">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-01 01:55:25 UTC</createdTime>
+<ownerDesignName>tugas 5</ownerDesignName>
+<engineerTo>
+<item key="7BC3F0D7-DF4D-CA96-6B29-27969BF25C1F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CURRENCY_NAME" id="CA064101-53AA-B7A8-81AF-7B0D2A1C5BC8">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-01 01:55:46 UTC</createdTime>
+<ownerDesignName>tugas 5</ownerDesignName>
+<engineerTo>
+<item key="7BC3F0D7-DF4D-CA96-6B29-27969BF25C1F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="2A6252CE-A72B-39BE-2F77-AFFCFB3F1AC2">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-01 02:08:40 UTC</createdTime>
+<generatorID>234E05B1-082E-F0F0-F619-DC64ED4BFEB8</generatorID>
+<ownerDesignName>tugas 5</ownerDesignName>
+<engineerTo>
+<item key="7BC3F0D7-DF4D-CA96-6B29-27969BF25C1F" value="true"/>
+</engineerTo>
+<referedAttribute>EE929D5C-6949-B36B-B080-172DA5C74A1C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C254D006-2BE1-27F9-7965-437687C780E9" name="COUNTRIES PK">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-01 01:55:09 UTC</createdTime>
+<ownerDesignName>tugas 5</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7BC3F0D7-DF4D-CA96-6B29-27969BF25C1F" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A03DB45E-AA8C-4C21-DDBB-E444CAE24AD5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A1D878F7-D2D1-1CC6-BCB8-57BF1047B511" name="CLASSES">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-01 01:28:31 UTC</createdTime>
+<generatorID>A2FDD849-85DF-0590-3C77-1F16A756A40A</generatorID>
+<ownerDesignName>tugas 5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CLASS_ID" id="9B85B75E-C040-D405-2D01-A000D9D73C4D">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-01 01:28:31 UTC</createdTime>
+<generatorID>828808E8-629D-8BE0-7458-AA20C8E19477</generatorID>
+<ownerDesignName>tugas 5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLASS_NAME" id="89D8FA8B-BACC-30AF-80AD-3B07C7BC38F1">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-01 01:28:31 UTC</createdTime>
+<generatorID>DEA50519-5C7B-62A3-A5EF-131565B549FC</generatorID>
+<ownerDesignName>tugas 5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALLARY_BASE" id="C10E4F90-2445-1B44-4410-0AEB0CC77A49">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-01 01:28:31 UTC</createdTime>
+<generatorID>BB557132-824D-4ABD-B763-5DDBBDC0B9F1</generatorID>
+<ownerDesignName>tugas 5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D7C6609D-ED64-F9C6-6350-91865BE6A91C" name="CLASSES_PK">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-01 01:28:31 UTC</createdTime>
+<generatorID>B60C416B-FED8-F1C9-F530-80A43526643D</generatorID>
+<ownerDesignName>tugas 5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B85B75E-C040-D405-2D01-A000D9D73C4D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

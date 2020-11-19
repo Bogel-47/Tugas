@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BDAB10F8-8D1E-32DB-83B6-353266D01B18" name="JOBS">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-01 02:37:24 UTC</createdTime>
+<generatorID>ECB65756-A5C9-194C-09B6-ED5061F27701</generatorID>
+<ownerDesignName>tugas 5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="5B73EEF3-309C-3B07-08AD-83B5DF62A164">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-01 02:37:24 UTC</createdTime>
+<generatorID>FF31D55D-E857-7F55-69F2-2FD1B1178820</generatorID>
+<ownerDesignName>tugas 5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TITLE" id="32876D78-C74F-0EB2-FDDB-DDFDC54D272D">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-01 02:37:24 UTC</createdTime>
+<generatorID>A3FD2D70-49E2-30A7-3275-ACBF87BF137A</generatorID>
+<ownerDesignName>tugas 5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MIN_SALARY" id="D4D28647-6750-1DD6-C2CF-0768033D30A8">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-01 02:37:24 UTC</createdTime>
+<generatorID>14EEB129-3B69-34E6-46A0-475D852DE451</generatorID>
+<ownerDesignName>tugas 5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100000 BYTE</dataTypeSize>
+<ownDataTypeParameters>100000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MAX_SALARY" id="EACAF681-391E-C848-F945-B587E7FB887E">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-01 02:37:24 UTC</createdTime>
+<generatorID>47A3B2A6-9EFA-4480-F702-847C9C7434A0</generatorID>
+<ownerDesignName>tugas 5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10000 BYTE</dataTypeSize>
+<ownDataTypeParameters>10000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D2978393-2391-C031-9678-9E69EC8412E3" name="JOBS_PK">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-01 02:37:24 UTC</createdTime>
+<generatorID>A54845BC-4196-0A0A-D237-73FB7DA8772A</generatorID>
+<ownerDesignName>tugas 5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B73EEF3-309C-3B07-08AD-83B5DF62A164"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

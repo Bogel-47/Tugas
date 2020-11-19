@@ -1,0 +1,55 @@
+paradigma pemrograman = abstraksi dari suatu komputer
+Program : kode logic
+data : struct, variable, dll
+paraller atau process-oriented programing memungkinkan programer menjalankan proses berbarengan
+memungkinkan beberapa proses yang tidak terkoneksi.
+parallel arsitektur menggunakan von neumann machines sebagai proses unit.
+
+IMPERATIVE PORGRAMING
+salah satu paradigm tertua.
+kata lain procedural programing.
+procedural programing memecah kesulitan
+
+- memungkinkan programer membagi permasalahan dan procedur yang akan menjalankan secara detail
+- dilakukan secara sequence.
+benefit :
+- kemampuan reuse code
+- simple sequential atau unstruktur prigram
+- merupakan satu langkah yang lebih mudah untuk tacking flow dari program karena tidak perlu go to statement atau jump.
+- scoping membantu untuk procedur menjadi modular.
+- menghindari satu variable tidak bisa di akses olhe scop yang lain
+- procedur lebih mudah untuk di bagi tugas karena modular.
+- fokus : membreakdows tugas program menjadi varibles, data struktu, dan subroutines.
+contoh bahasa pemrograman imperative : FORTRAN, Pascal, C, Ada.
+
+Object-oriented Programming
+paradigma pemrograman berbasis objek, yang menampung data field dan juga prosedur.
+programing tekhnik berdasarkan abstraksi, enkasulpasi, modulariti, polymorphism, inheritance.
+bahas pertama : Simula (1967), dan Smalltalk(1972-1980).
+class : karakteristik dari sesuatau yang isinya data, karakteristik dan behaviour.
+blueprint : cetakan dari program.
+kelas : menyediakan modularity dan structur di program
+problem domain.
+istilah lain properti dan method disebut members.
+object suatu instansi dari kelas (kelas bisa objek bisa blueprint)
+attributes/value dikaitkan dengan state, behavior = apa uyang bisa dilakukan objek itu
+konstraktor digunakan untuk membentuk objek tersebut.
+Attributes :
+member (variable data yang di enkasulapsi dari class atau objek)
+class variable : variable di sebarkan ke segala instances
+abstract data type : bukan primitif.
+
+Method : subroutine yang diasosiasikan dengan kelas
+instance : method diasosiasikan dengan objek, kelas, atau static, method diasosiasikan dengan kelas.
+sifat method atau field yang bisa diakses melalui enkasulapsi, ada aksesor ada eksekutor
+service providing : class bisa menggunakan method dari kelas luar.
+destructor : membentuk objek ketika objek tidak digunakan.
+passing message : komunikasi dari 2 objek (inspirasi dari smalltalk)
+message passing bisa bersifat asinkronis pemanggilan fungsi dan konkeronsi.
+C++ object darri imperative (C), C#, java, scala, python.
+
+FUNGSIONAL PROGRAMING
+berawal dari permasalah matematika karena programer sulit mengeksekusi bahasa matematikan ke bahasa pemrograman.
+semua proses di fungsional programing di anggap fungsi.
+di fungsional programing tidak ada looping.
+fungsional programing digunakan untuk AI

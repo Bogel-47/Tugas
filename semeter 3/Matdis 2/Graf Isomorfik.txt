@@ -1,0 +1,17 @@
+grafik isomorfik = Grafik sama cuman bentuk beda, tapi bentuknya bisa sama dan memili korespondensi 1-1
+
+untuk memastikan 2 buah grafik isomorfik dengan cara memeriksa matrik ketetanggaany, jika matrik ketetanggannya sama maka kedua graf isomorfik
+2 buah graf dikatakan isomorfik jika :
+- jumalh simpul dan sisi pada kedua graf sama.
+- jumlah simpul yang mempunyai derajat tertentu harus sama
+- jika pada G1, u1 bertetangga v1 dan w1, sedangkan G2, u2 bertetangga v2 dan w2, maka derajad v1 dan v2, w1 dan w2 harus sama
+- terdapat korespondensi 1-1 V1 ke V2
+
+
+Connectivity
+paths/lintasan : deretan edge yang berawalan dari suatu vertex atau graph yang travel dari vertex ke vertex lainnya sepanjang edge graph
+contoh garis a b c = dengan edge e1 dan e2 maka lintasannya e1e2 atau a b c (tinggal milih edgenya), jika ada multi graph pilih salah satu e
+undirected graph disebut terhubung jika ada lintasan dianata kedua vertex graph tesebut
+pada directed graph:
+strongly conected : antar vertex itu pasti ada lintasannya
+weekly connected : antar vertex tidak ada arah

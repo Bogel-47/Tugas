@@ -1,0 +1,164 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="219A641E-0192-A753-01A8-A0C9C91F6E1E" name="JOB_HISTORY">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-01 02:37:24 UTC</createdTime>
+<generatorID>0855C11A-578E-F323-346D-8088ABEE9294</generatorID>
+<ownerDesignName>tugas 5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="B199818E-CBEF-FA97-C273-7B50253ACA30">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-01 02:37:24 UTC</createdTime>
+<generatorID>8AB18A1F-FFF2-35CF-09AB-660F7C071373</generatorID>
+<ownerDesignName>tugas 5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DURATION" id="24FED202-DD62-E123-D350-259BD3A31629">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-01 02:37:24 UTC</createdTime>
+<generatorID>945FE2F9-18E1-DEEE-1564-9196D4476B4D</generatorID>
+<ownerDesignName>tugas 5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPARTEMENT_DEPARTEMENT_ID" id="69663FDE-54C5-E006-EDC1-551480E27EEC">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-01 02:37:24 UTC</createdTime>
+<generatorID>F5C922ED-F202-8B04-7532-D792207949AB</generatorID>
+<ownerDesignName>tugas 5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B7548A65-C6B8-297D-F725-4C427E9DA18C" referredColumn="D6EEE31B-4CDB-D8E6-1205-F95F09EFA99F"/>
+</associations>
+</Column>
+<Column name="JOBS_ID" id="55D45FC9-1BAB-145F-59DC-F9576CC357A1">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-01 02:37:24 UTC</createdTime>
+<generatorID>C61AE8C4-B743-B994-671F-B6A4EE728A92</generatorID>
+<ownerDesignName>tugas 5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="57489D5B-E992-DF63-0F16-AB8A4720ACA7" referredColumn="5B73EEF3-309C-3B07-08AD-83B5DF62A164"/>
+</associations>
+</Column>
+<Column name="DEPARTEMENT_DEPARTEMENT_ID2" id="F1BD1E97-DD5A-8EA2-E6E7-2629EA946EAB">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-01 02:37:24 UTC</createdTime>
+<generatorID>FFCDC963-C64F-5226-9A2F-37372449AC9C</generatorID>
+<ownerDesignName>tugas 5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3E29200E-F9CF-2F6D-9784-9A744946DE28" referredColumn="D6EEE31B-4CDB-D8E6-1205-F95F09EFA99F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1F679F96-6994-D06E-5675-926DA25A1550" name="JOB_HISTORY_PK">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-01 02:37:24 UTC</createdTime>
+<generatorID>256B329D-C893-DA9B-46E3-69E4FC12E7B3</generatorID>
+<ownerDesignName>tugas 5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B199818E-CBEF-FA97-C273-7B50253ACA30"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="99E514E2-CCE6-32D1-E18C-BDD03A41D989" name="JOB_HISTORY__IDX">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-01 02:37:24 UTC</createdTime>
+<ownerDesignName>tugas 5</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>7F2FDFF2-17BB-9668-D5FE-D610996740A1</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="69663FDE-54C5-E006-EDC1-551480E27EEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F6C393F9-7C3A-441A-AE20-1E8AAA235C4F" name="JOB_HISTORY__IDXv1">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-01 02:37:24 UTC</createdTime>
+<ownerDesignName>tugas 5</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>AFC34094-7A02-A923-EA41-8C0786975A67</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="55D45FC9-1BAB-145F-59DC-F9576CC357A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0F9EB6E3-A280-6753-9392-F86E002D7C81" name="JOB_HISTORY__IDXv2">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-01 02:37:25 UTC</createdTime>
+<ownerDesignName>tugas 5</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>6D86CCEF-3B24-4043-A00E-ECB30FBD937D</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="F1BD1E97-DD5A-8EA2-E6E7-2629EA946EAB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A37D39BA-4DAD-2E15-9FD1-E21848DA8A2F" name="JOB_HISTORY_DEPARTEMENT_FK">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-01 02:37:24 UTC</createdTime>
+<generatorID>7F2FDFF2-17BB-9668-D5FE-D610996740A1</generatorID>
+<ownerDesignName>tugas 5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69663FDE-54C5-E006-EDC1-551480E27EEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D2B0D2F8-159A-56A0-2657-47DC9EFF0DED" name="JOB_HISTORY_JOBS_FK">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-01 02:37:24 UTC</createdTime>
+<generatorID>AFC34094-7A02-A923-EA41-8C0786975A67</generatorID>
+<ownerDesignName>tugas 5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55D45FC9-1BAB-145F-59DC-F9576CC357A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="39817AAA-71A8-1FD4-19AC-05062E579EC0" name="JOB_HISTORY_DEPARTEMENT_FKv1">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-01 02:37:25 UTC</createdTime>
+<generatorID>6D86CCEF-3B24-4043-A00E-ECB30FBD937D</generatorID>
+<ownerDesignName>tugas 5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1BD1E97-DD5A-8EA2-E6E7-2629EA946EAB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

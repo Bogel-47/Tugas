@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="04DC5132-5734-8DAA-28C8-8266E2E8E23D" name="Job">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-10-08 13:21:57 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<engineerTo>
+<item key="52A07637-8E44-A0A1-D9A5-A71970106E17" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>94D6DB37-9FC4-7FD7-A7BC-07A4653F3129</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="job_id" id="B7C7078A-4663-9BC0-342C-A03091C6316A">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-10-08 13:22:02 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<engineerTo>
+<item key="52A07637-8E44-A0A1-D9A5-A71970106E17" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="job_name" id="9CF13659-36F6-66A1-2546-64FA48C1036B">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-10-08 13:22:14 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<engineerTo>
+<item key="52A07637-8E44-A0A1-D9A5-A71970106E17" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="minimum_salary" id="253D40E5-F0A8-0D56-E1DF-F8572636D969">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-10-08 13:22:38 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<engineerTo>
+<item key="52A07637-8E44-A0A1-D9A5-A71970106E17" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="maximum_salary" id="9EB53AEB-BDB6-99A1-0C32-9D1BD984B03B">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-10-08 13:22:54 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<engineerTo>
+<item key="52A07637-8E44-A0A1-D9A5-A71970106E17" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="51D1F3B6-394D-A6BF-E687-4D7D2DD6A80A" name="Job PK">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-10-08 13:22:13 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<engineerTo>
+<item key="52A07637-8E44-A0A1-D9A5-A71970106E17" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B7C7078A-4663-9BC0-342C-A03091C6316A</attributeRef>
+<attributeRef>9CF13659-36F6-66A1-2546-64FA48C1036B</attributeRef>
+<attributeRef>253D40E5-F0A8-0D56-E1DF-F8572636D969</attributeRef>
+<attributeRef>9EB53AEB-BDB6-99A1-0C32-9D1BD984B03B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

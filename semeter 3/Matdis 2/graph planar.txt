@@ -1,0 +1,8 @@
+graf planar : bisa digambarkan pada satu bidang tanpa adanya edge yang bersilangan
+representasi planar graph adalah membagi bidang menjadi region dengan dibatasi oleh edge, dan tiap bidang tidak boleh sama warnanya antara edge yang sama
+warna : resource = sumber daya = limited = minimal = reuse
+pewarnaan graph : bisa mewarnai region, vertex, atau edge
+2 litas grpah : jika suatu region menjadi vertex maka hasilnya akan sama seperti region tidak menjadi vertex
+mewarnai vertex tidak boleh mewarnai vertex yang bertetanggaan sewarna
+chromatic number : jumlah warna tekecil dari jumlah warna yang dibutuhkan
+proses mewarnai : mengalokasikan resource

@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="47B54A9E-6655-C65A-5E6C-AFFE3B9EB796" name="MACHINES">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-01 02:37:24 UTC</createdTime>
+<generatorID>5C795428-2EA6-AE42-FF46-E94BC3B46483</generatorID>
+<ownerDesignName>tugas 5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="35498222-28E3-A431-59A0-BDF888D2D8D9">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-01 02:37:24 UTC</createdTime>
+<generatorID>10A0644D-4CF5-8359-C919-30C377B708A6</generatorID>
+<ownerDesignName>tugas 5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="FE0A2DF7-79E7-5128-3222-F31593B8A115">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-01 02:37:24 UTC</createdTime>
+<generatorID>265345F6-E691-40BC-8506-3220C9CF02EF</generatorID>
+<ownerDesignName>tugas 5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="JOBS_ID" id="B8883371-661D-0EFB-2619-F5EE42E3F1A9">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-01 02:37:24 UTC</createdTime>
+<generatorID>E731C15E-D9FA-D830-F6CA-D6E2E3773DA1</generatorID>
+<ownerDesignName>tugas 5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A54AC5B2-2F13-B6CF-A59B-7D8741A4EF74" referredColumn="5B73EEF3-309C-3B07-08AD-83B5DF62A164"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B42B158B-94CE-CDAB-2429-6E7B0D8DF750" name="MACHINES_PK">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-01 02:37:24 UTC</createdTime>
+<generatorID>19B7B969-6513-C0C0-645C-4A999572CCE7</generatorID>
+<ownerDesignName>tugas 5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35498222-28E3-A431-59A0-BDF888D2D8D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C6EA92D4-BC46-926D-4798-85BD65A65C84" name="MACHINES_JOBS_FK">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-01 02:37:24 UTC</createdTime>
+<generatorID>8B745849-77D3-E556-F275-5C754D37BA88</generatorID>
+<ownerDesignName>tugas 5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8883371-661D-0EFB-2619-F5EE42E3F1A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,5 @@
+
+tail recursion :
+function tail recursion tuh jadi kalo manggil rekursi dari tailnya biar gak high cost ngejalanin si rekursinya
+Lazy Evaluation :
+ekspresi tidak dievaluasi ketika terikat ke variabel, tetapi evaluasinya ditunda sampai hasilnya dibutuhkan oleh perhitungan lain. Akibatnya, argumen tidak dievaluasi sebelum diteruskan ke suatu fungsi, tetapi hanya jika nilainya benar-benar digunakan.

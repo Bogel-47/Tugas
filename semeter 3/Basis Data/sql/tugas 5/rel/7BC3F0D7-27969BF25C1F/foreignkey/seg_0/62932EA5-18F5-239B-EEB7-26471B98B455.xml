@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="62932EA5-18F5-239B-EEB7-26471B98B455" containerWithKeyObject="4E29BF14-CC9D-5612-FBE9-CBDBFECD7F0A" localFKIndex="544C4012-A290-F48A-3B0F-36D4041B88B1" name="FULL_TIMER_CLASSES_FK">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-01 01:28:32 UTC</createdTime>
+<generatorID>913E17E1-7027-EA5E-86D6-98E549D41C20</generatorID>
+<ownerDesignName>tugas 5</ownerDesignName>
+<referredTableLongName>CLASSES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A1D878F7-D2D1-1CC6-BCB8-57BF1047B511</referredTableID>
+<keyObject>D7C6609D-ED64-F9C6-6350-91865BE6A91C</keyObject>
+<referredKeyID>D7C6609D-ED64-F9C6-6350-91865BE6A91C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CLASS_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

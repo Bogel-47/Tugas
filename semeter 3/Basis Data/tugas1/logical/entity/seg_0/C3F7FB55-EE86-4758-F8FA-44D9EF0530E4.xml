@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C3F7FB55-EE86-4758-F8FA-44D9EF0530E4" name="Job_history">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-10-08 13:15:50 UTC</createdTime>
+<ownerDesignName>tugas1</ownerDesignName>
+<engineerTo>
+<item key="52A07637-8E44-A0A1-D9A5-A71970106E17" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="job_duration" id="39A021CC-85FF-5E95-627C-1A1868CFAADD">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-10-08 13:16:02 UTC</createdTime>
+<ownerDesignName>tugas1</ownerDesignName>
+<engineerTo>
+<item key="52A07637-8E44-A0A1-D9A5-A71970106E17" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="employee_id" id="765AFA17-151C-83DD-9905-FF431B9E90D6">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-10-08 13:18:13 UTC</createdTime>
+<generatorID>116FDD47-43F8-85BD-8613-1B7E610F7522</generatorID>
+<ownerDesignName>tugas1</ownerDesignName>
+<engineerTo>
+<item key="52A07637-8E44-A0A1-D9A5-A71970106E17" value="true"/>
+</engineerTo>
+<referedAttribute>7B3D93BA-126F-E491-6BC9-2948B68FFFFA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="salary" id="07E9E32D-1C38-4DDF-2E73-031A32DBBDB7">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-10-08 13:18:13 UTC</createdTime>
+<generatorID>116FDD47-43F8-85BD-8613-1B7E610F7522</generatorID>
+<ownerDesignName>tugas1</ownerDesignName>
+<engineerTo>
+<item key="52A07637-8E44-A0A1-D9A5-A71970106E17" value="true"/>
+</engineerTo>
+<referedAttribute>2D65EFC3-7892-C5F0-1732-187AC9AE0647</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="salary_multipier1" id="DA364C60-0370-D5F1-80E8-F0AD5DCC5E90">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-10-08 13:20:17 UTC</createdTime>
+<generatorID>116FDD47-43F8-85BD-8613-1B7E610F7522</generatorID>
+<ownerDesignName>tugas1</ownerDesignName>
+<engineerTo>
+<item key="52A07637-8E44-A0A1-D9A5-A71970106E17" value="true"/>
+</engineerTo>
+<referedAttribute>874254AB-A9DF-0D2C-2320-51E82BE5BD66</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="location_id1" id="0EBC5457-1635-3B44-B92F-0BDFAAC9F7BF">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-10-08 13:20:17 UTC</createdTime>
+<generatorID>116FDD47-43F8-85BD-8613-1B7E610F7522</generatorID>
+<ownerDesignName>tugas1</ownerDesignName>
+<engineerTo>
+<item key="52A07637-8E44-A0A1-D9A5-A71970106E17" value="true"/>
+</engineerTo>
+<referedAttribute>9E619AC9-7F9B-B655-151D-1795ECEE9534</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="postal_code1" id="FC29928D-B8E0-27A2-1A52-D7912506A382">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-10-08 13:20:17 UTC</createdTime>
+<generatorID>116FDD47-43F8-85BD-8613-1B7E610F7522</generatorID>
+<ownerDesignName>tugas1</ownerDesignName>
+<engineerTo>
+<item key="52A07637-8E44-A0A1-D9A5-A71970106E17" value="true"/>
+</engineerTo>
+<referedAttribute>F8FEC6F9-0FB6-B16F-2C7A-4CA703F1888A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="country_id1" id="EC7DDAB6-1F00-62C7-C807-BE0E5CB0FE22">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-10-08 13:31:29 UTC</createdTime>
+<generatorID>116FDD47-43F8-85BD-8613-1B7E610F7522</generatorID>
+<ownerDesignName>tugas1</ownerDesignName>
+<engineerTo>
+<item key="52A07637-8E44-A0A1-D9A5-A71970106E17" value="true"/>
+</engineerTo>
+<referedAttribute>9AB66F3E-8ACF-35A5-32CC-313262A35FD5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

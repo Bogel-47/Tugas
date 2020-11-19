@@ -1,0 +1,5 @@
+imperative programing = algorithma +data jika +prosedur = prosedural programing
+functional programing = deklarasi dari fungsi (program = fungsi)
+program = mentransformasikan data input menjadi data outpute
+
+karakteristik fungsional = program dan procedures semua itu fungsi, tidak ada variables atau assignment hanya input parameter, tidak ada looping hanya ada rekursive, nilai yang dikembalikan tergantung parameternya

@@ -1,0 +1,8 @@
+tree : conected undirected graph tanpa sirkuit dan loop
+dari 2 vertex berbeda hanya ada 1 edge
+definisi 2 : root tree : suatu vertex yang memiliki garis ke bawah (menjadi parent dan child) parent tau child tapi child belum tentu tau parentnya
+pre order : 2+3*5 = +2*35 (operator angka operator)
+post order : 2+3*5 = 2,3,5,*,+ (angka operato angka)
+kruskal : fokus di edge
+prim :fokus di vertex
+

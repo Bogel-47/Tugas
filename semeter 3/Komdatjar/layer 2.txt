@@ -1,0 +1,20 @@
+layer 3 packet
+layer 2 data frame ( merubah dari data frame ke bit stream saat mengirim dan merubah bit stream menjadi data frame saat menerima)
+data link yang terlibat hanya dari dua mesin yang adjacent (terhubung secara langsung)
+design dari data link layer :
+memberikan service terbaik interface ke network layer
+penanganan transmisi error
+mengatur flow dari data sehingga penerima yang lambat tidak ke pengirim cepat
+ada head ada trailer yang tengahnya isinya data
+ada 3 kemungkinan alasan yang mungkin 
+1. unacknowledged connection services (streaming 1 arah tidak peduli penerima siap atau tidak)
+2. acknowledged connection services (streaming 2 arah dengan melihat sender siap menerima atau tidak)
+3. acknowledged connection oriented services
+
+ada 4 metode : 
+1. byte count
+2. flag bytes with byte stuffing. menambahkan esc (jarak) di setiap sebelum datanya
+3. flag bits with bit stuffing. ( menambahkan 0 disetiap sudah 5 buah 1)
+4. physical layer coding violations. 
+layer 1 bit stream = urutan data biner
+

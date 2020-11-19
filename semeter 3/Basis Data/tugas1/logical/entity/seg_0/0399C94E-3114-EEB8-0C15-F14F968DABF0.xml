@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0399C94E-3114-EEB8-0C15-F14F968DABF0" name="Departement">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-10-08 12:45:55 UTC</createdTime>
+<ownerDesignName>tugas1</ownerDesignName>
+<engineerTo>
+<item key="52A07637-8E44-A0A1-D9A5-A71970106E17" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="department_id" id="23E68DFF-65E4-12BF-AE02-0650657AB7C5">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-10-08 12:46:18 UTC</createdTime>
+<ownerDesignName>tugas1</ownerDesignName>
+<engineerTo>
+<item key="52A07637-8E44-A0A1-D9A5-A71970106E17" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="department_name" id="61F58861-373A-BCD5-2467-EE993C47F047">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-10-08 12:47:00 UTC</createdTime>
+<ownerDesignName>tugas1</ownerDesignName>
+<engineerTo>
+<item key="52A07637-8E44-A0A1-D9A5-A71970106E17" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="salary_multipier" id="FC9CC660-5868-2E0B-78AD-5B0ACA657F1C">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-10-08 12:49:34 UTC</createdTime>
+<ownerDesignName>tugas1</ownerDesignName>
+<engineerTo>
+<item key="52A07637-8E44-A0A1-D9A5-A71970106E17" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="location_id" id="AD6D1D11-5D7D-7AE7-7AD1-935768DE0E3C">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-10-08 13:19:45 UTC</createdTime>
+<generatorID>BA3B9300-AD1D-17D7-B4EC-B83C3308D0BC</generatorID>
+<ownerDesignName>tugas1</ownerDesignName>
+<engineerTo>
+<item key="52A07637-8E44-A0A1-D9A5-A71970106E17" value="true"/>
+</engineerTo>
+<referedAttribute>9862DA37-0798-1A3A-EE0C-0D0ECB3A6A34</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="postal_code" id="8C346E56-4E44-4800-5556-1485D83A24D2">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-10-08 13:19:45 UTC</createdTime>
+<generatorID>BA3B9300-AD1D-17D7-B4EC-B83C3308D0BC</generatorID>
+<ownerDesignName>tugas1</ownerDesignName>
+<engineerTo>
+<item key="52A07637-8E44-A0A1-D9A5-A71970106E17" value="true"/>
+</engineerTo>
+<referedAttribute>A96158C5-FF4D-022E-387C-25159E0652AC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="country_id" id="5CC7E6E3-707E-008B-9145-3CBF92A99028">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-10-08 13:31:29 UTC</createdTime>
+<generatorID>BA3B9300-AD1D-17D7-B4EC-B83C3308D0BC</generatorID>
+<ownerDesignName>tugas1</ownerDesignName>
+<engineerTo>
+<item key="52A07637-8E44-A0A1-D9A5-A71970106E17" value="true"/>
+</engineerTo>
+<referedAttribute>F9826A61-979D-D48E-5FF5-9F516FA334FA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1551FEEE-0DED-3B5E-001F-24F6905BD9EE" name="Departement PK">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-10-08 12:46:31 UTC</createdTime>
+<ownerDesignName>tugas1</ownerDesignName>
+<engineerTo>
+<item key="52A07637-8E44-A0A1-D9A5-A71970106E17" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FC9CC660-5868-2E0B-78AD-5B0ACA657F1C</attributeRef>
+<attributeRef>AD6D1D11-5D7D-7AE7-7AD1-935768DE0E3C</attributeRef>
+<attributeRef>8C346E56-4E44-4800-5556-1485D83A24D2</attributeRef>
+<attributeRef>5CC7E6E3-707E-008B-9145-3CBF92A99028</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

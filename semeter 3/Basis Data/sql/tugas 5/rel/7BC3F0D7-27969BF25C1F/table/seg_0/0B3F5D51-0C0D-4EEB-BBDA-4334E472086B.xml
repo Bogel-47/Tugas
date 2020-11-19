@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0B3F5D51-0C0D-4EEB-BBDA-4334E472086B" name="LOCATION">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-01 01:47:42 UTC</createdTime>
+<generatorID>C7138A6C-FEA4-8B64-EDDE-C5BED2EFD607</generatorID>
+<ownerDesignName>tugas 5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="1C995379-501E-40CB-B7B1-4CF581FD5510">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-01 01:47:42 UTC</createdTime>
+<generatorID>C70D5DB8-C886-2884-8665-FF54EF11CCB9</generatorID>
+<ownerDesignName>tugas 5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STREET_NAME" id="9C3CCEC8-58E7-FD55-A0AF-C3116360B710">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-01 01:47:42 UTC</createdTime>
+<generatorID>6A32012B-9FAB-2A5A-BB7A-66506CD85B74</generatorID>
+<ownerDesignName>tugas 5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POSTAL_CODE" id="BF00EDC4-37D8-6907-9DDE-3FD9C33CB369">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-01 01:47:42 UTC</createdTime>
+<generatorID>EB439DB8-AE0A-7BF5-01A4-EA05734BAC5C</generatorID>
+<ownerDesignName>tugas 5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CITY" id="F56364D0-A080-1F06-588D-862EC80E51E9">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-01 01:47:42 UTC</createdTime>
+<generatorID>9FB7F3C6-AC50-85E3-DB1F-FD0F922B3386</generatorID>
+<ownerDesignName>tugas 5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROVINCE" id="D178E6AC-7FB6-C57B-535B-DA76863921C3">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-01 01:47:42 UTC</createdTime>
+<generatorID>A4C1C937-C615-D588-62EB-EAC50DE87E73</generatorID>
+<ownerDesignName>tugas 5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COUNTRIES_ID" id="EDCBEB32-818D-A088-45FF-3CAE9E4A2BDE">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-01 02:06:08 UTC</createdTime>
+<generatorID>72CEB96A-73AF-2F0A-8A05-997BCF05B765</generatorID>
+<ownerDesignName>tugas 5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D8279AA8-6179-53C6-E08B-28CA9CDF3E68" referredColumn="4B936540-81B3-7899-5AE6-F18AF3A9BF33"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1D91E281-00C6-0FCB-E52D-2264A815A666" name="LOCATION_PK">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-01 01:47:42 UTC</createdTime>
+<generatorID>CE0C837F-814B-E960-2641-8EF383072345</generatorID>
+<ownerDesignName>tugas 5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C995379-501E-40CB-B7B1-4CF581FD5510"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A3781F0B-3D9D-08C3-5540-C2A539A0B12F" name="LOCATION_COUNTRIES_FK">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-01 02:06:08 UTC</createdTime>
+<generatorID>712238E2-BC10-C997-C6E7-35A4413D514C</generatorID>
+<ownerDesignName>tugas 5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EDCBEB32-818D-A088-45FF-3CAE9E4A2BDE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9952EF01-F252-75A3-68E5-54854B1DC8EB" name="PART_TIMER">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-01 01:47:42 UTC</createdTime>
+<generatorID>200BB8D9-0A1F-F3D5-EB71-CB8A64B79902</generatorID>
+<ownerDesignName>tugas 5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Employee_ID1" id="E5F95C5C-57CB-817A-E4CE-E781EE88C50E">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-01 01:47:42 UTC</createdTime>
+<generatorID>7A3FD5F3-91F7-7122-90C9-0C2C4E61261D</generatorID>
+<ownerDesignName>tugas 5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FF5F4CAB-40CF-31A6-3377-EB67FFC84446" referredColumn="D86FA0B9-AEF5-8B66-C8A6-819EC5347CA3"/>
+</associations>
+</Column>
+<Column name="WORK_HOUR" id="310C5496-269E-3388-C9C9-5D5FFDEB5F56">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-01 01:47:42 UTC</createdTime>
+<generatorID>5CB12C6F-4957-3A91-CDCD-52FE9FCC6668</generatorID>
+<ownerDesignName>tugas 5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>24</dataTypePrecision>
+<ownDataTypeParameters>,24,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QUALS_ID" id="BD52DB01-4DAF-DEFB-0290-871C5C6A00BF">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-01 01:47:42 UTC</createdTime>
+<generatorID>07F772CB-9882-2CE3-71B4-A05C858ACA38</generatorID>
+<ownerDesignName>tugas 5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="143AC9C7-81B6-20E2-C577-80718EEDD94A" referredColumn="4F4CDCC4-142A-29E0-3649-5471604BF450"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F4F99C37-11A2-64D8-9A44-79226D8F4E25" name="PART_TIMER_PKv1">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-01 01:47:42 UTC</createdTime>
+<generatorID>7AFA2A0E-1220-A527-24DD-3A229C973330</generatorID>
+<ownerDesignName>tugas 5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5F95C5C-57CB-817A-E4CE-E781EE88C50E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3ED0B1E4-1B55-647F-FF66-E5547198D424" name="PART_TIMER_EMPLOYEE_FKv2">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-01 01:47:42 UTC</createdTime>
+<generatorID>1F4DDBD9-813F-0FB1-4327-707A1A028296</generatorID>
+<ownerDesignName>tugas 5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5F95C5C-57CB-817A-E4CE-E781EE88C50E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EF2A365A-0965-29DF-DDF2-4659A1C87D99" name="PART_TIMER_QUALS_FK">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-01 01:47:42 UTC</createdTime>
+<generatorID>D88799D4-A640-BA30-0854-764004C907B6</generatorID>
+<ownerDesignName>tugas 5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD52DB01-4DAF-DEFB-0290-871C5C6A00BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

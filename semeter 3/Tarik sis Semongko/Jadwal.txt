@@ -1,0 +1,17 @@
+JADWAL AKADEMIK SEM 3
+
+Senin:
+- Basis Data (T) ( 07:00 - 08:40 )
+- Arsi & Org Komp(T)  (10:40 - 13:50)
+Selasa :
+- Basis Data (P) (9:30 - 12.00)
+- Prinsip Pemograman (T) (13:50-15:30)
+Rabu :
+- Matdis 2 (T), (07:00 - 09:30 )
+- Pancasila (T) (09:50-11:30)
+- Kom. Data Jaringan (T) (11:30 - 13:50)
+Kamis :
+- Prinsip Bahasa Pemrogram (P) (07:00 - 09:30)
+- Kom. Data Jaringan (P) (13:00 - 15:30)
+Jum'at:
+- Matter 2 (T) (07.00 - 09.30)

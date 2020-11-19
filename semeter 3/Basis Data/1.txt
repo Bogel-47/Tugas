@@ -1,0 +1,14 @@
+Primary Key merupakan sebuah aturan dimana fungsinya adalah untuk membedakan anatara baris satu dengan baris lainnya yang ada pada tabel dan bersifat unik.
+foreign (tamu) key, merupakan suatu atribut untuk melengkapi hubungan yang menunjukan ke induknya, itu artinya field pada tabel merupakan kunci tamu dari tabel lain.
+candidate key merupakan suatu atribut ataupun super key yang mengidentifikasi secara unik untuk kejadian spesifik dari entitas.
+untuk menurunkan graph harus 1-1 dan akan menjadi relasi
+jika many to many minimum cardinalitynya 3
+transformasi struktur
+Genspes (ISA) :
+is a kalau ke bawah spesialisasi (perbedaan), ke atas generalisasi (persamaan)
+entitiy lemah :
+bukan suatu entity yang unik keberadaannya tergantung entity kuat
+aggresi:
+relation yang dianggep sebagai entity
+
+bahasa query :

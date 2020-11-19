@@ -1,0 +1,2 @@
+sender : inisialisasi, kirim data, terima acknowladge, jika benar maka akan menginisialisasi windows selanjutnya
+receiver : buka windows, terima data, kirim acknowladge, jika benar maka akna buka windows selanjutnya

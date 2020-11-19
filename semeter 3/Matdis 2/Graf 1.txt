@@ -1,0 +1,40 @@
+Graf terdiri dari V (Himpunan dari verteks yang bukan himpunan kosong), E (Adalah himpunan edge dengan catatan boleh himpunan kosong), edge punya satu atau dua verteks, verteks merupakan endpoints, edges menyambungkan endpoints.
+V = {a, b, c }
+E = {{a},{a,b},{b,c}}
+A dikatakan identik jika setiap elemen dari A adalah elemen dari B
+jika menggunakan kurung buka tutup disebut oder paired
+(a,b) tidak = (b,a), notasi graf
+
+Jenis Graph
+simple graph = graf yang mengoneksikan dua verteks berbeda, dan tidak ada 2 edge yang mengoneksikan dua verteks
+tidak ada loop tidak ada pararel edge
+loop = edge yang menghubungkan satu verteks
+multiple graph = edge mengkoneksikan 2 verteks sama
+menggunakan indeks tiap edge contoh e1,e2,e3,e4 karena {a,b} = {a,b}
+e1 = {a,c}, e2 = {a,b}, e3 = {a,b},e4 {b,c}
+graph yang tidak punya arah = undirected graph
+graph yang punya arah = directed graph/digraph
+bukan order pair dari verteks
+order pair pake (u , v) berawal dari u berakhir di v
+gambar tidak pengaruh di diskrit yang penting data
+adjacent/tetangga = dua verteks dikatakan adjacent jika u dan v adalah endpoint dari edge (dihubungkan oleh edge)
+degre = jumlah edge yang dihubungkan dengan dirinya (verteks), jika loop dihitung 2, sisanya 1
+rumus edge = jumlah edge/2 karena edge yang sama tidak di hitung.
+
+incident = e1 = {a,b},e1 bertepi pada a dan b
+directed graph
+saat (u,v) adalah edge dari graph G maka u bertetangga ke v begitu sebaliknya, jika directed graph maka hanya u ke v (sesuaikan dengan arah edge)
+dan degrenya dihitung terpisah yang in dan out
+
+Special simple graph =
+complete graph = semua verteks lainnya terhubung langsung dengan vertek lainnya
+cycle = graph mulai dari verteks awal berakhir di verteks awal kembali
+n-cubes = verteks = 2^n (berapa bit), garis yang terhubung harus beda 1 bit
+1 cubes = 1 garis
+2 cubes = 4 garis (2 dimensi) (bipartite)
+3 cubes = 8 garis (3 dimensi) (bipartite)
+
+bipartite = vertex yang bisa disambungkan menjadi himpunan, setiap edge di graph bisa digabungkan
+subgraph G=(v,E) adalah H= (w,f), dimana w subset v dan f subset e, subgraph g jika H tidak = G
+subset tidak= proper subset
+adjency matriks menggunakan titik terhubung kemana aja, dan jika dia graph maka akan simetris

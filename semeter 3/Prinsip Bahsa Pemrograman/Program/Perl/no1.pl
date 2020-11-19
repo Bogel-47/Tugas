@@ -1,0 +1,12 @@
+use strict; 
+my @array = qw( the quick brown fox jumps over the lazy dog and runs away );
+print "1.";
+print "@array[0,1,3..6,8]\n";
+print "2.";
+print "@array[0,2,3,10,11]\n";
+print "3.";
+print "@array[0,7,8,10]\n";
+print "4.";
+print "@array[0,8,10,11,1] \n";
+print "5.";
+print "@array[0..2,8,10,5..7,3]";

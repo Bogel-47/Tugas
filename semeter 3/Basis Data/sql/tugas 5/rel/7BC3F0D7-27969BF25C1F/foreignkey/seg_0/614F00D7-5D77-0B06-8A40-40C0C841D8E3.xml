@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="614F00D7-5D77-0B06-8A40-40C0C841D8E3" containerWithKeyObject="2ECE7E49-42F4-6F39-D071-536FBD6915AD" localFKIndex="286701C0-369F-387E-52CF-F117FBAD3F1C" name="EMPLOYEE_MACHINES_FK">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-01 02:37:24 UTC</createdTime>
+<generatorID>64A3C923-94FB-F837-DDC4-F185063DD5CF</generatorID>
+<ownerDesignName>tugas 5</ownerDesignName>
+<referredTableLongName>MACHINES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>47B54A9E-6655-C65A-5E6C-AFFE3B9EB796</referredTableID>
+<keyObject>B42B158B-94CE-CDAB-2429-6E7B0D8DF750</keyObject>
+<referredKeyID>B42B158B-94CE-CDAB-2429-6E7B0D8DF750</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

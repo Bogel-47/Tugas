@@ -1,0 +1,15 @@
+suatu formula dikatakan valid jika dan hanya jika bernilai benar pada semu hasil evaluasi pada interpretasi
+inkonsisten = suatu formula dikatakan inkonsisten jika dan hanya jika bernilai salah pada semua interpretasi
+p v ~p = valid
+p ^ ~q = inkonnsisten
+
+-----------------
+invalid		|
+		|
+	Valid	|
+		|
+		|
+-----------------
+
+formula f dikatan literal jika berbentuk normal konjungsu
+formula f dikatakan normal konjungsi jika dan hanya jika f memilik formula  f1 ^ ... ^ fn, n>=1

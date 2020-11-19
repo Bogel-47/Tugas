@@ -1,0 +1,10 @@
+Cohesion dan Coupling merupakan konsep dasar dalam perancangan perangkat lunak.
+Membagi software/perangkat lunak menjadi modul-modul yang kecil bukan sekedar memisahkan kumpulan kode dari kumpulan kode lainnya. Tetapi memastikan bahwa modul yang dirancang menganut prinsip "Loose Coupling, High Cohesion"
+
+Coupling  adalah ketergantungan antar modul satu dengan modul lainnya. Bayangkan jika anda mengubah 1 modul A tapi karena modul lain memiliki ketergantungan terhadap modul A, maka efek perubahan ini mungkin saja punya impact terhadap modul lain. Karena itu loose coupling sangat penting dalam perancangan software.
+
+Cohesion adalah keterikatan fungsi-fungsi di dalam suatu modul. Maksudnya adalah modul yang dibuat memiliki fungsi-fungsi yang serupa untuk 1 tanggung jawab. Karena itu high cohesion sangat penting dalam perancangan software.
+
+Contoh coupling -> Terdapat 1 modul Transaksi untuk Penjualan dan Pembelian. Karena Pembelian dan Penjualan bisa dipisahkan (Pembelian adalah transaksi ke supplier, sedangkan Penjualan adalah transaksi ke Customer) adalah suatu hal yang terpisah, maka modul Transaksi dapat dibagi menjadi 2 modul terpisah yaitu modul Pembelian dan modul Penjualan. Sehingga perubahan terhadapa Penjualan tidak mempengaruhi Pembelian.
+
+Contoh cohesion -> 1 class Lampu memiliki 1 tanggung jawab untuk Lampu saja. Fungsi-fungsi seperti turningOn, turningOff, changeColour, dll harus identik dengan tanggung jawab terhadap prilaku lampu secara umum.

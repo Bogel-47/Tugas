@@ -1,0 +1,26 @@
+Physical layer :
+gelombang udara = radio
+gelombang listrik = kabel
+gelombang cahaya = optik
+
+gelombang bandwith
+gelombang carrier = pembawa
+data
+
+wifi : band & channel 2.4Ghz
+jika gelombang carrier sudah ada yang gunakan frekueunsi tersebut maka tidak bisa digunakan oleh device lain
+radio :90-120MHz (FM)
+jika 90MHz maka setiap detik ada 90MHz
+
+saat gelombang di transmisikan maka di penerima akan di filtering : gelombang yang di kirim dikurangi dengan filternya maka akan keluar frekuensi aslinya dari speaker radio
+kabel tembaga = 0 ohm/m
+noise bisa meningkatkan tegangan, bisa dari induksi dari medan magnet pada kabel, tegangan bisa naik bisa turun karena induksi.
+fungsi repeater untuk merubah tegangan, kabel memiliki panjang maximum dalam penggunaannya.
+cross cabble digunakan saat menghubungkan langsung pc dengan pc
+full duplex = bisa berbicara keduanya langsung (2 channel) seperti telfon
+half duplex = satu bicara satu mendengar contoh (1 channel) : ht
+UTP menggunakan full duplex, standart instalasi T568a = straight cabble, t568b = cross cabble
+kabel berbeda kategori karena isolatornya dan pilinan permeternya beda semakin bagus kualitas isolatornya semakin bagus juga kualitasnya, kategori 5 100Mbps, kategori 3 10Mbps,
+makin tinggi koneksinya makin tinggi medan magnetnya dan makin besar noisenya
+device wireless menggunakan 2.4GHZ,jika untuk wifi dipecah menjadi beberapa channel yang tidak beririsan channel 1 dengan 6, 6 dengan 11
+

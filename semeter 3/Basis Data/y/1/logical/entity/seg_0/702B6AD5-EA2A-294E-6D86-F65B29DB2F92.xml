@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="702B6AD5-EA2A-294E-6D86-F65B29DB2F92" name="Location">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-10-08 12:54:38 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<engineerTo>
+<item key="52A07637-8E44-A0A1-D9A5-A71970106E17" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="location_id" id="9862DA37-0798-1A3A-EE0C-0D0ECB3A6A34">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-10-08 12:54:46 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<engineerTo>
+<item key="52A07637-8E44-A0A1-D9A5-A71970106E17" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="street_name" id="5252723D-316C-A138-FC2B-69CBEFB8B564">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-10-08 12:54:46 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<engineerTo>
+<item key="52A07637-8E44-A0A1-D9A5-A71970106E17" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="postal_code" id="A96158C5-FF4D-022E-387C-25159E0652AC">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-10-08 12:55:15 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<engineerTo>
+<item key="52A07637-8E44-A0A1-D9A5-A71970106E17" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="city_name" id="C443F36A-2E70-CF56-E114-B59D0BD265CD">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-10-08 12:55:39 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<engineerTo>
+<item key="52A07637-8E44-A0A1-D9A5-A71970106E17" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name_province" id="ED023F5A-E5F7-30DB-894D-8E92DE4F46C0">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-10-08 12:55:51 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<engineerTo>
+<item key="52A07637-8E44-A0A1-D9A5-A71970106E17" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="country_id" id="F9826A61-979D-D48E-5FF5-9F516FA334FA">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-10-08 13:31:29 UTC</createdTime>
+<generatorID>2D7CDFA3-7E89-0CA0-DFBF-A75C9933FE33</generatorID>
+<ownerDesignName>1</ownerDesignName>
+<engineerTo>
+<item key="52A07637-8E44-A0A1-D9A5-A71970106E17" value="true"/>
+</engineerTo>
+<referedAttribute>774ABEB3-CD9A-A92E-6731-38ECCF193FA8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F939148C-1A55-C7AC-E832-3928320C8423" name="Location PK">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-10-08 12:55:00 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<engineerTo>
+<item key="52A07637-8E44-A0A1-D9A5-A71970106E17" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9862DA37-0798-1A3A-EE0C-0D0ECB3A6A34</attributeRef>
+<attributeRef>A96158C5-FF4D-022E-387C-25159E0652AC</attributeRef>
+<attributeRef>F9826A61-979D-D48E-5FF5-9F516FA334FA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

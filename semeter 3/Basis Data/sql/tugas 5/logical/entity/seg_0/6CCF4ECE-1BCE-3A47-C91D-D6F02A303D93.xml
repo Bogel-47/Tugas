@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6CCF4ECE-1BCE-3A47-C91D-D6F02A303D93" name="DEPARTEMENT">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-01 00:37:25 UTC</createdTime>
+<ownerDesignName>tugas 5</ownerDesignName>
+<engineerTo>
+<item key="7BC3F0D7-DF4D-CA96-6B29-27969BF25C1F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DEPARTEMENT_ID" id="5B2C194A-0C89-3CDF-3781-2A848DFF3241">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-01 00:37:34 UTC</createdTime>
+<ownerDesignName>tugas 5</ownerDesignName>
+<engineerTo>
+<item key="7BC3F0D7-DF4D-CA96-6B29-27969BF25C1F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DEPARTEMENT_NAME" id="63D768F3-3404-F984-A51F-C871452153C2">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-01 00:37:56 UTC</createdTime>
+<ownerDesignName>tugas 5</ownerDesignName>
+<engineerTo>
+<item key="7BC3F0D7-DF4D-CA96-6B29-27969BF25C1F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SALLARY_MULTIPLIER" id="8482C006-F4B5-021D-2BC4-4CA26A5E0C61">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-01 01:26:33 UTC</createdTime>
+<ownerDesignName>tugas 5</ownerDesignName>
+<engineerTo>
+<item key="7BC3F0D7-DF4D-CA96-6B29-27969BF25C1F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="803B7E0D-5868-0645-CC2E-02687BA96FE4">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-01 01:47:29 UTC</createdTime>
+<generatorID>42912868-ECA4-E9A3-2AAD-27FD3673B655</generatorID>
+<ownerDesignName>tugas 5</ownerDesignName>
+<engineerTo>
+<item key="7BC3F0D7-DF4D-CA96-6B29-27969BF25C1F" value="true"/>
+</engineerTo>
+<referedAttribute>C70D5DB8-C886-2884-8665-FF54EF11CCB9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D31E8D72-3A1C-AC22-3A58-F29EBA007F88" name="DEPARTEMENT PK">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-01 00:37:51 UTC</createdTime>
+<ownerDesignName>tugas 5</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7BC3F0D7-DF4D-CA96-6B29-27969BF25C1F" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5B2C194A-0C89-3CDF-3781-2A848DFF3241</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

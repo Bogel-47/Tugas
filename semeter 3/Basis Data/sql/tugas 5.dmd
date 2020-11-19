@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="tugas 5" id="010558C3-0DF0-B512-CC09-DBC933A0540F" version="3.5">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-01 00:33:05 UTC</createdTime>
+<ownerDesignName>tugas 5</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>010558C3-0DF0-B512-CC09-DBC933A0540F</designId>
+</OSDM_Design>

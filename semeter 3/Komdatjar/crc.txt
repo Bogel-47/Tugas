@@ -1,0 +1,14 @@
+plus = carry
+minus = borrow
+
+x	     x+parity  x+parity    x
+pengirim -> encode -> decoder -> receiver
+
+msb : most significant Bit (paling kiri)
+lsb : least significant bit (paling kanan)
+
+
+
+yang tidak hadir :
+aldy
+raffi

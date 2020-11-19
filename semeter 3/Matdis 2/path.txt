@@ -1,0 +1,5 @@
+graf berbibit : graf yang ada bobotnya di setiap garis.
+short path : lintasan yang memiliki bobot minimum
+algoritma dijkstra adalah prosedur iteratif mencari lintasan terpendek antara z dalam graf dengan pembobot
+prosesnya dengan mencar panjang lintasan terpendek dari sebuah simpul dan menambahkan simpul-simpul tersebut ke set simpul S. algoritma berhenti setelah mencapai simpul z.
+algoritma TKD (hapus) algoritma untuk memperoleh jalur terpendek dengan cara hapus sisi sisi dengan bobot paling tinggi dengan syarat tidak membelah graph menjadi dua. dan proses penghapusan selesai jika tidak ada lagi sisi yang bisa di hapus.
