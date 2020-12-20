@@ -1,0 +1,53 @@
+Layer 2
+Single Access
+A ------------ B
+RS - 232 (serial)
+A mengalirkan data ke B karena terhubung langsung dia tidak memerlukan addressing
+
+tetapi jika Multiple Access
+    A        C
+    |        |
+---------------
+         |
+         B
+NIC
+WIFI
+BT
+dll
+membutuhkan Addressing
+
+Medium access control Sublayer
+
+Multi access Channel (MAC) (Alokasi Channel dilewat karena tidak ada?)
+
+(Asumsi 1 buah channel)
+Station Model (Terminal) : model terdiri dari N buah independent stations (contoh : komputer, telephone, atau PC)
+Collision :dalam satu saat hanya ada 1 transmisi data contoh media channel adalah kabel. Jika A mengalirkan data ke media channel dan B mengalirkan data ke media channel maka akan terjadi tabrakan.
+contunius Time : 
+Slotted Time : waktu dibuat diskrit interval (slot) persis seperti jam (continus) tetapi jam pelajaran disebut sebagai diskrit(sloted time).
+carrier sense : station bisa mengatakan kalau channel dipakai sebelum digunakan. (berhubungan dengan collision)
+no carrier sense :tidak bisa mendeteksi ada yang menggunakan atau tidak. tetapi dia bisa mendeteksi transmisi sukses atau tidak.
+
+Protokol ALOHA : ketika user transmisi mereka punya data untuk mengirim data. Bakal terjadi tabrakan, dan frame yg dikirim akan rusak.
+akan tetapi adanya property feedback sender akan tau frame yg dikirimkan rusak atau tidak dengan mendengarkan channel.Jika frame yg dikirim
+rusak maka sender harus menunggu waktu yg random (waktu diantara terminal akan ada kemungkinan berbeda sehingga kemngkinan collision semakin kecil) untuk di transmit dan mengirimkannya lagi. Semakin banyak terminal maka resiko collision akan semakin tinggi.
+untuk menghindari collision maka waktu tunggunya akan di buat semakin besar (makin banyak terminal akan semakin lambat). Ada batasan jumlah terminal dalam sebuah channel agar tidak lama menunggu time out dan akan terjadi pengiriman data terus menerus (delay semakin besar) dan sender akan menganggap tidak bisa mengirim data pada receiver.
+-semakin besar ukuran frame maka waktu transmisi akan semakin panjang. jika terjadi collision pada last data terjadi collision maka harus ulang dari awal yang berakibat efisiensi channel semakin buruk maka diperlukan slot.
+slotted ALOHA* : digunakan untuk menghindari kegagalan di last minute frame yang mana data dibagi sesuai waktu sehingga jika sudah lewat waktu maka akan menunggu slot berikutnya, sehingga saat ingin mengirim diawali waktu pertama. (bisa dilakukan jika semua terminal yang ada itu sinkron (semua memiliki patokan waktu yang sama)). jika menggunakan radio memerlukan metronom. sehingga jika menggunakan gelombang radio jarak mempengaruhi.
+menggunakan slotted ALOHA untuk menghidari collision di kasus tertentu tidak bisa digunakan karena mengsinkronkan terminal itu sulit yang mana penempatan fisik berpengaruh.
+*S&K BERLAKU
+THROUGHPUT : menyatakan jumlah job yang dapat diselesaikan dalam 1 satuan waktu.(SS Terlampir)
+THROUGHPUT FRAME : berapa jumlah fram yang bisa dikirimkan dalam 1 satuan waktu, slotted ALOHA lebih tinggi dibandingkan pure ALOHA. (SS terlampir)
+makin banyak upaya pengiriman paket maka efisiensi menurun.
+
+CSMA (carrier sense multiple access) PROTOCOLS. Pengembangan dari ALOHA
+yang membedakan adalah : station mendengarkan (mendeteksi) apa yang dilakukan oleh station lain. Sehingga jika
+ada yang menggunakan maka dia tidak akan mengirim. Ini yang digunakan pada Ethernet CSMA/CD. mekanisme ini dipake untuk collision detection.
+jika dia mengirim dia harus bisa mendeteksi terjadi collision atau tidak.
+1-persistent CSMA. saat station akan mengirim data maka akan mendengarkan apakah ada yang melakukan transmisi atau tida, jika channel sibuk maka akan menunggu sampai tidak sibuk, dan saat terdeteksi collision maka akan melakukan lagi dalam waktu random dan melakukannya lagi.
+kata kunci 1-P CSMA : progration delay (maaf kalau salah). contoh kasus : gang senggol untuk collision di CSMA maka dibutuhkan CD (collison detection). Makin banyak terminal resiko collision makin tinggi. jika semakin sering collision maka kemungkinan data tidak akan pernah di kirim.
+
+Tes jaringan menggunakan metode stress agar bisa diketahui apakah akan terjadi down atau tidak.
+pahami non presistent CSMA dan p-persistent CSMA.
+tuliskan di kertas. 
+dikumpulkan sebelum minggu depan

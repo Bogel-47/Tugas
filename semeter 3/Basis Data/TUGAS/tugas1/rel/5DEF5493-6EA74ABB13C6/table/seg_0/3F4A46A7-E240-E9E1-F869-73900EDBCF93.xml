@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3F4A46A7-E240-E9E1-F869-73900EDBCF93" name="Relation_8">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-21 16:09:42 UTC</createdTime>
+<ownerDesignName>tugas1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Manager_Id_Manager" id="85BD2216-F77E-916F-F99A-39C165ACA183">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-21 16:09:42 UTC</createdTime>
+<ownerDesignName>tugas1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="83EEE967-CAFE-55C0-6825-A7225164E116" referredColumn="00E0790F-6DAE-2081-5B0C-046D99095DC1"/>
+</associations>
+</Column>
+<Column name="Report_Id_Report" id="A2D7CB2E-BA79-B326-F214-D1B58EBBF17C">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-21 16:09:42 UTC</createdTime>
+<ownerDesignName>tugas1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8F7D7E2D-CCFB-87F8-F9DD-D178E621E1E4" referredColumn="1FD1FD12-1817-C290-2A14-62F6D069F320"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C1F17D59-C639-107D-0306-53584E56074A" name="Relation_8_PK">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-21 16:09:42 UTC</createdTime>
+<ownerDesignName>tugas1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85BD2216-F77E-916F-F99A-39C165ACA183"/>
+<colUsage columnID="A2D7CB2E-BA79-B326-F214-D1B58EBBF17C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8DC7557F-F0F6-24DE-A578-F3BC87242D6F" name="Relation_8_Manager_FK">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-21 16:09:42 UTC</createdTime>
+<generatorID>A27B28CF-4437-582A-E72F-8A717F50D494</generatorID>
+<ownerDesignName>tugas1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85BD2216-F77E-916F-F99A-39C165ACA183"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="95AEF41D-604C-DBE2-53FC-B71691C4DA30" name="Relation_8_Report_FK">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-21 16:09:42 UTC</createdTime>
+<generatorID>A27B28CF-4437-582A-E72F-8A717F50D494</generatorID>
+<ownerDesignName>tugas1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2D7CB2E-BA79-B326-F214-D1B58EBBF17C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

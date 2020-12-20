@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E95EC507-40ED-E8CA-CD8C-703E573F7DF1" name="LogIn">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-21 14:05:57 UTC</createdTime>
+<ownerDesignName>tubes</ownerDesignName>
+<engineerTo>
+<item key="5DEF5493-553B-B7B6-5123-6EA74ABB13C6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Username" id="B255BED3-3C4A-D938-4A4F-CEA84F506FF1">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-21 14:12:16 UTC</createdTime>
+<ownerDesignName>tubes</ownerDesignName>
+<engineerTo>
+<item key="5DEF5493-553B-B7B6-5123-6EA74ABB13C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Password" id="B05DFC3B-DAF0-64A2-A3A9-31A6F6319461">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-21 14:12:46 UTC</createdTime>
+<ownerDesignName>tubes</ownerDesignName>
+<engineerTo>
+<item key="5DEF5493-553B-B7B6-5123-6EA74ABB13C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B2487B44-0193-5B7E-AA77-CF88121C5762" name="LogIn PK">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-21 14:12:41 UTC</createdTime>
+<ownerDesignName>tubes</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="5DEF5493-553B-B7B6-5123-6EA74ABB13C6" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B255BED3-3C4A-D938-4A4F-CEA84F506FF1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

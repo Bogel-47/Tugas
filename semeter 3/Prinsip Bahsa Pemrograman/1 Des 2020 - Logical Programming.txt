@@ -1,0 +1,108 @@
+Prolog = programming in logic
+1970
+
+Imperative berdasar pada aspek "how"
+Logic berdasar pada aspek "what"
+
+Konsep prolog
+1. Basic of prolog
+2. Backtracking
+3. Rules
+
+editor =  swi - prolog
+
+Logic programming
+-satu paradigma berdasarkan formal logic
+-logic programming berbeda dengan imperative programming
+-Berdasarkan declaratif languange
+	menekankan aspek "what" bukan control flow
+	Imperative dan OOP menerapkan "what" dan control flow
+-Logical form
+
+Prolog
+-berguna di problem area
+	NLP (natural language processing), database, AI
+-tidak terlalu digunakan
+	graphikal atau numerikal
+-prolog merupakan programming language yang paling populer.
+
+
+Data dan Query
+-Prolog memiliki 2 bagian
+	1 untuk represent data
+	yang lain untuk query data
+-Data direpresentasikan ke bentuk fakta dan logical rules, data dimasukkan untuk menambah pengetahuan.
+	facts: basic assertion about some world
+	Rules: inference about facts in that world
+-Query: pertanyaan2 terkait data dan pengetahuan yang kita susun.
+
+Fakta dan aturan bisa dikatakan sebagai "knowledge base"
+	. prolog memungkinkan kita untuk mengekspresikan pengetahuan 
+	. compiler akan mengambil pengetahuan tersebut sebagai satu solusi dari 		pertanyaan yang diberikan
+
+Facts
+-Bisa dikatakan basic assertions/statements
+
+Atoms
+-merupakan individual things/objects.
+-atoms harus diawali dengan lower-case character.
+-atoms sebagai 1 fix value karena berbentuk fakta.
+
+Predicates
+-merupakan 1 relationship antar object pada domain masalah
+	contok likes(gromit, cheese)
+-predicate likes memiliki 2 parameter
+
+Queries
+-pertanyaan berdasarkan data/pengetahuan yang dimasukkan.
+-queries bisa dilakukan setelah compilation
+
+Variables
+-diawali oleh uppercase letter atau '_x'
+-digunakan untuk menguji suatu value/nilai.
+-untuk mencari orang yang memiliki suka yang sama bisa ditambahkan ";"
+
+Anonymous Variables
+-untuk mencari value true/false tanpa mengetahui value aslinya.
+-menggunakan "_"
+
+Goals
+-Dengan mengeluarkan pertanyaan, Prolog dituntuk untuk memenuhi pertanyaan tersebut.
+-conjunction ketika mengkombinasikan 2 statement menggunakan ","
+
+Backtracking
+-proses query terkait dari 2 hasil
+-backtracking berhubungan dengan conjunction
+-semacam irisan dari apa yang disukai wallace dan gromit
+
+Rules
+-Aturan dibuat untuk merampingkan suatu objek
+-Aturan merupakan 1 statement yang general antara object
+-Contoh mengenai sister
+	X is a sister of Y if:
+	X is felame and
+	X and Y have the same parents.
+-Cara membuat aturan
+^head dan body
+	head merupakan predicate
+	body merupakan conjunction of goals
+-untuk membuktikan head, maka body harus dibuktikan kebenarannya.
+
+Contoh Rule
+-Wallace menyukai cheese
+
+friend(wallace,X) :- likes(X,cheese).
+      
+      head             predicates(conjunctions)
+-X merupakan suatu variabel yang bisa match terhadap object apapun selama object tersebut menyukai rules
+
+Generalization of the Rule
+-Facts X Rules -----> Knowledge Base
+
+
+
+
+
+
+
+

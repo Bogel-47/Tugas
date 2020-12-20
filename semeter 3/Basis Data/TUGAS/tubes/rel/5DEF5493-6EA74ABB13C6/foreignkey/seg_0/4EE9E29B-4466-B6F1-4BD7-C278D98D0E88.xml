@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4EE9E29B-4466-B6F1-4BD7-C278D98D0E88" containerWithKeyObject="56DBE5FF-CB74-0F0E-7299-EEBD3A6A9170" localFKIndex="7D226A7A-E188-048C-2E28-6C707FFBBC71" name="Relation_7_Admin_FK">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-21 16:09:42 UTC</createdTime>
+<generatorID>D97A05A0-8972-5E44-591F-A671490B798D</generatorID>
+<ownerDesignName>tubes</ownerDesignName>
+<referredTableLongName>Admin</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>61995F06-9397-BC5F-9F1E-EF417BDDABEE</referredTableID>
+<keyObject>4D445250-FE8D-024F-59E3-F9AED6465EB6</keyObject>
+<referredKeyID>4D445250-FE8D-024F-59E3-F9AED6465EB6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Id_Admin</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

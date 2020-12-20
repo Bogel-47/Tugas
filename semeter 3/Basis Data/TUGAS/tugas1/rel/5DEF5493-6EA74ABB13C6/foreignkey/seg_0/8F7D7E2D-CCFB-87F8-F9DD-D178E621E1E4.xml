@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8F7D7E2D-CCFB-87F8-F9DD-D178E621E1E4" containerWithKeyObject="3F4A46A7-E240-E9E1-F869-73900EDBCF93" localFKIndex="95AEF41D-604C-DBE2-53FC-B71691C4DA30" name="Relation_8_Report_FK">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-21 16:09:42 UTC</createdTime>
+<generatorID>A27B28CF-4437-582A-E72F-8A717F50D494</generatorID>
+<ownerDesignName>tugas1</ownerDesignName>
+<referredTableLongName>Report</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>674C855D-9C04-AA59-6B38-A98ED14641B8</referredTableID>
+<keyObject>F088DC83-BAAA-4396-114C-E3A2117ABC55</keyObject>
+<referredKeyID>F088DC83-BAAA-4396-114C-E3A2117ABC55</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Id_Report</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

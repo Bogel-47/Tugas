@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E1E934FE-12B7-DEA2-D1D5-B228713B684C" name="Manager">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-21 16:09:42 UTC</createdTime>
+<generatorID>CCAD490C-A69B-6DBF-FFE5-A08D63BB0EBE</generatorID>
+<ownerDesignName>tubes</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LogIn_Username" id="B76DEB21-2849-0195-D4D3-90B75D5DEE51">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-21 16:09:42 UTC</createdTime>
+<generatorID>6D8F3356-0D87-9A10-7904-FF185FF3663F</generatorID>
+<ownerDesignName>tubes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3917D4B3-A828-4EF8-99B3-B2CEE7D89D00" referredColumn="726995EF-2039-5D12-3505-5C62DD3A2697"/>
+</associations>
+</Column>
+<Column name="Id_Manager" id="00E0790F-6DAE-2081-5B0C-046D99095DC1">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-21 16:09:42 UTC</createdTime>
+<generatorID>496BD149-3379-B829-9F3E-4D47AA174550</generatorID>
+<ownerDesignName>tubes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nama" id="72B0F0AE-8390-F0F9-1674-C6700F707DCA">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-21 16:09:42 UTC</createdTime>
+<generatorID>0267F2DD-5DF4-7FFC-6473-69BC52E4A852</generatorID>
+<ownerDesignName>tubes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="35A3581A-BBAF-15E5-1EAC-4CE06CB1BEA0" name="Manager_PK">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-21 16:09:42 UTC</createdTime>
+<generatorID>DE415231-7663-170E-4B00-1F7AE1B5C715</generatorID>
+<ownerDesignName>tubes</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00E0790F-6DAE-2081-5B0C-046D99095DC1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FBAEE365-ABDF-0D20-E0E6-EA40D7AAC4A0" name="Manager__IDX">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-21 16:09:42 UTC</createdTime>
+<ownerDesignName>tubes</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>73FB2C4C-F482-034C-BFE9-5CEF7D322D26</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B76DEB21-2849-0195-D4D3-90B75D5DEE51"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C6262714-B753-061B-8249-4B119417F277" name="Manager_LogIn_FK">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-21 16:09:42 UTC</createdTime>
+<generatorID>73FB2C4C-F482-034C-BFE9-5CEF7D322D26</generatorID>
+<ownerDesignName>tubes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B76DEB21-2849-0195-D4D3-90B75D5DEE51"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

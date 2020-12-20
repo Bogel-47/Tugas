@@ -1,0 +1,28 @@
+poling = menghimpun informasi siapa yang akan mengirimkan frame (data), jika sudah selesai contention periodnya maka dikirim framenya, jika suda masuk lagi ke
+periode contention, baru mengirimkan lagi, jika tidak ada yang ngirim maka contention kosong.
+
+bit map protocol. jika ada 8 station jika sudah waktu tertentu maka dia akan on lalu kirim frame sesuai urutan.
+jika sudah selesai masuk lagi ke contention periode lagi. Pada saat pengiriman frame sudah fix siapa yg ngirim dan sudah jelas.
+setiap semua setuju siapa yang akan mengirim data berikutnya, sehingga tidak akan pernah ada collisions. biasa juga disebut protocol reservasi karena memesan dulu
+baru mengirimkan data.
+
+Binary Countdown
+bit map ada overheadnya, yaitu 1 bit per station. Makin banyak station maka overhead semakin besar, masalahnya jika makin banyak makin panjang maka delta T akan semakin besar, sedangkan semuanya harus di tunggu,
+dan belum tentu pada satu saat akan mengirimkan datanya (frame).
+
+Binary countdown : menggunakan id binary. seperi 0010, 0100, 1001, dan 1010.
+mana yang duluan? yaitu yang on yang menang, maka yang off akan diam (kalah). jadi dari contoh yang pertama ngirim 1010.
+
+jika tidak mau ada collision maka gunakan channel berbeda seperti line atau media lainnya atau frekuensi yang berbeda.
+802.3 (etehetnet)
+802.11 wireless
+802.15 bluetooth
+
+jenis kabel : 10base5 (10 = 10Mbps)
+
+panjang frame minimum 256 byte, jika frame yg dikirim kurang dari 256 maka akan melakukan padding (dilengkapi hingga 256 byte) agar
+bisa terdeteksi.
+
+belum tentu selamanya jika kita meningkatkan jaringan pasti permormanya meningkat drastis belum tentu.
+
+jika ada sinyal 100Mbps maka aslinya hanya /2nya

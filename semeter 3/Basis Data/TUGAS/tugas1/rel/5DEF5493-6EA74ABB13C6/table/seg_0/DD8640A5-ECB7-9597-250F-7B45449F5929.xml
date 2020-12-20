@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DD8640A5-ECB7-9597-250F-7B45449F5929" name="Book">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-21 16:09:42 UTC</createdTime>
+<generatorID>867A0935-3EA8-FC6A-F88F-53A538199979</generatorID>
+<ownerDesignName>tugas1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_booking" id="E3ED4966-23C8-5FBC-F656-BB0A73BA7D4D">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-21 16:09:42 UTC</createdTime>
+<generatorID>3ECC8DED-4CC3-A903-CF8A-DC0AC864BDB6</generatorID>
+<ownerDesignName>tugas1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Check_In" id="5C63873C-5D8E-F745-F8A4-999BF97596E1">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-21 16:09:42 UTC</createdTime>
+<generatorID>7C4AF44F-F49C-3D20-355E-042D50732F55</generatorID>
+<ownerDesignName>tugas1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Check_out" id="6A987C55-474C-DE83-3001-6B297E6DD290">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-21 16:09:42 UTC</createdTime>
+<generatorID>1CA07481-BE30-2D39-89DA-1D1F1995A290</generatorID>
+<ownerDesignName>tugas1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pelanggan_id_plg" id="A2FDE518-A0FC-24C6-6FFB-530D502F8BC1">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-21 16:09:42 UTC</createdTime>
+<generatorID>175A048E-793A-7317-EFD2-3C15E6064376</generatorID>
+<ownerDesignName>tugas1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="77072D2E-4321-2A59-D2A5-560857804CBD" referredColumn="3CBD9864-73D9-EACD-CE3F-3269EEA95E30"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6032E7DC-20F1-1891-518A-08BF18DA4032" name="Book_PK">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-21 16:09:42 UTC</createdTime>
+<generatorID>BABDC75A-B66E-E652-C1B3-A66BC8B3E2CE</generatorID>
+<ownerDesignName>tugas1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3ED4966-23C8-5FBC-F656-BB0A73BA7D4D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EA4143D1-93C9-2C75-17C1-55805A9C564A" name="Book_Pelanggan_FK">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-21 16:09:42 UTC</createdTime>
+<generatorID>F728F1AD-1C8D-028F-2B33-04794A4938C4</generatorID>
+<ownerDesignName>tugas1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2FDE518-A0FC-24C6-6FFB-530D502F8BC1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="867A0935-3EA8-FC6A-F88F-53A538199979" name="Book">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-21 13:49:10 UTC</createdTime>
+<ownerDesignName>tubes</ownerDesignName>
+<engineerTo>
+<item key="5DEF5493-553B-B7B6-5123-6EA74ABB13C6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_booking" id="3ECC8DED-4CC3-A903-CF8A-DC0AC864BDB6">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-21 13:49:19 UTC</createdTime>
+<ownerDesignName>tubes</ownerDesignName>
+<engineerTo>
+<item key="5DEF5493-553B-B7B6-5123-6EA74ABB13C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Check_In" id="7C4AF44F-F49C-3D20-355E-042D50732F55">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-21 13:49:39 UTC</createdTime>
+<ownerDesignName>tubes</ownerDesignName>
+<engineerTo>
+<item key="5DEF5493-553B-B7B6-5123-6EA74ABB13C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Check_out" id="1CA07481-BE30-2D39-89DA-1D1F1995A290">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-21 13:50:18 UTC</createdTime>
+<ownerDesignName>tubes</ownerDesignName>
+<engineerTo>
+<item key="5DEF5493-553B-B7B6-5123-6EA74ABB13C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_plg" id="175A048E-793A-7317-EFD2-3C15E6064376">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-21 14:04:27 UTC</createdTime>
+<generatorID>F728F1AD-1C8D-028F-2B33-04794A4938C4</generatorID>
+<ownerDesignName>tubes</ownerDesignName>
+<engineerTo>
+<item key="5DEF5493-553B-B7B6-5123-6EA74ABB13C6" value="true"/>
+</engineerTo>
+<referedAttribute>C8B5356D-B79D-5F1C-915C-5F551532F381</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BABDC75A-B66E-E652-C1B3-A66BC8B3E2CE" name="Book PK">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-21 13:49:37 UTC</createdTime>
+<ownerDesignName>tubes</ownerDesignName>
+<engineerTo>
+<item key="5DEF5493-553B-B7B6-5123-6EA74ABB13C6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3ECC8DED-4CC3-A903-CF8A-DC0AC864BDB6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

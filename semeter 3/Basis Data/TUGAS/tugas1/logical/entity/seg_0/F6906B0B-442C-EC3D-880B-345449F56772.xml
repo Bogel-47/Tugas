@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F6906B0B-442C-EC3D-880B-345449F56772" name="Pelanggan">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-21 13:57:13 UTC</createdTime>
+<ownerDesignName>tugas1</ownerDesignName>
+<engineerTo>
+<item key="5DEF5493-553B-B7B6-5123-6EA74ABB13C6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_plg" id="C8B5356D-B79D-5F1C-915C-5F551532F381">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-21 13:57:21 UTC</createdTime>
+<ownerDesignName>tugas1</ownerDesignName>
+<engineerTo>
+<item key="5DEF5493-553B-B7B6-5123-6EA74ABB13C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="no_tlp" id="60F161AD-FC19-6A5C-26FD-DF7DBABF9A46">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-21 13:57:37 UTC</createdTime>
+<ownerDesignName>tugas1</ownerDesignName>
+<engineerTo>
+<item key="5DEF5493-553B-B7B6-5123-6EA74ABB13C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<dataTypeScale>13</dataTypeScale>
+<ownDataTypeParameters>,13,13</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tgl_lahir" id="E3E7B14E-6843-6B38-4A12-4ADC3CD0C3B0">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-21 13:58:19 UTC</createdTime>
+<ownerDesignName>tugas1</ownerDesignName>
+<engineerTo>
+<item key="5DEF5493-553B-B7B6-5123-6EA74ABB13C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="alamat" id="034AD973-5693-4013-0AEC-6A0D42DAFC96">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-21 13:58:32 UTC</createdTime>
+<ownerDesignName>tugas1</ownerDesignName>
+<engineerTo>
+<item key="5DEF5493-553B-B7B6-5123-6EA74ABB13C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama_plg" id="12F4B648-1FC5-0C53-AD28-EEE8C4C451A8">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-21 13:59:14 UTC</createdTime>
+<ownerDesignName>tugas1</ownerDesignName>
+<engineerTo>
+<item key="5DEF5493-553B-B7B6-5123-6EA74ABB13C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Username" id="A933B37D-9FB8-65CA-5014-9444BE0F8D50">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-21 16:06:32 UTC</createdTime>
+<generatorID>F6879951-5E15-321E-8477-44B3C5874DC3</generatorID>
+<ownerDesignName>tugas1</ownerDesignName>
+<engineerTo>
+<item key="5DEF5493-553B-B7B6-5123-6EA74ABB13C6" value="true"/>
+</engineerTo>
+<referedAttribute>B255BED3-3C4A-D938-4A4F-CEA84F506FF1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="393CB946-F19A-89DE-6F59-B23CE53AC603" name="Pelanggan PK">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-21 13:57:35 UTC</createdTime>
+<ownerDesignName>tugas1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="5DEF5493-553B-B7B6-5123-6EA74ABB13C6" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C8B5356D-B79D-5F1C-915C-5F551532F381</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

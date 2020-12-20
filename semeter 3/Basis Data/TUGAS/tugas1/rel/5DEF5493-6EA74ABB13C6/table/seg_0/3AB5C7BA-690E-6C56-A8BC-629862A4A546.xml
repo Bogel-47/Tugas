@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3AB5C7BA-690E-6C56-A8BC-629862A4A546" name="Relation_2">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-21 16:09:42 UTC</createdTime>
+<ownerDesignName>tugas1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Room_Id_Room" id="9A99FD58-6976-7396-CF52-AA4A717FB093">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-21 16:09:42 UTC</createdTime>
+<ownerDesignName>tugas1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D9420F0A-D75F-C954-5D5D-0DBF1174C50D" referredColumn="FB24B50C-AFD5-9914-6481-6D88CA4B98CB"/>
+</associations>
+</Column>
+<Column name="Book_Id_booking" id="A0307A61-7A1C-0AC8-0FBD-8ECAF81ACFFB">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-21 16:09:42 UTC</createdTime>
+<ownerDesignName>tugas1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EB3F4331-2083-93C6-A543-731BCF992DE9" referredColumn="E3ED4966-23C8-5FBC-F656-BB0A73BA7D4D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FADAF3C7-4B47-84ED-6B8C-0193011039D9" name="Relation_2_PK">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-21 16:09:42 UTC</createdTime>
+<ownerDesignName>tugas1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A99FD58-6976-7396-CF52-AA4A717FB093"/>
+<colUsage columnID="A0307A61-7A1C-0AC8-0FBD-8ECAF81ACFFB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1356CCAD-5243-12AF-8F83-228FC7F0BDF1" name="Relation_2_Room_FK">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-21 16:09:42 UTC</createdTime>
+<generatorID>DECEF3D3-B659-8A88-F9AE-FF663C87491C</generatorID>
+<ownerDesignName>tugas1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A99FD58-6976-7396-CF52-AA4A717FB093"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C5CC3FE-AAFC-B005-3EB0-14D207369AF8" name="Relation_2_Book_FK">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-21 16:09:42 UTC</createdTime>
+<generatorID>DECEF3D3-B659-8A88-F9AE-FF663C87491C</generatorID>
+<ownerDesignName>tugas1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0307A61-7A1C-0AC8-0FBD-8ECAF81ACFFB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

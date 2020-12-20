@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C4C25569-B3A4-FBF1-1432-D3D6DC275C4D" name="Transaction">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-21 16:09:42 UTC</createdTime>
+<generatorID>8B97D81E-E268-5D14-BD2E-3AB957B79172</generatorID>
+<ownerDesignName>tubes</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_transaction" id="44F017F5-7AA5-B0EC-55DD-08ADF7598ED3">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-21 16:09:42 UTC</createdTime>
+<generatorID>F1F7EAD1-12C6-8746-A2BB-3A4B4E668024</generatorID>
+<ownerDesignName>tubes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Jumlah_Total_Fasilitas" id="41B4E4D4-AC20-9606-DE79-D226D2E88EA8">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-21 16:09:42 UTC</createdTime>
+<generatorID>CE3B2B7D-0660-8B66-D252-E598CF527E01</generatorID>
+<ownerDesignName>tubes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>38</dataTypeScale>
+<ownDataTypeParameters>,38,38</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F208FCE2-3797-64AC-60E2-3B6073BCEF7F" name="Transaction_PK">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-21 16:09:42 UTC</createdTime>
+<generatorID>5B373102-A4F3-4DF3-F0E6-C8694C92DC5C</generatorID>
+<ownerDesignName>tubes</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44F017F5-7AA5-B0EC-55DD-08ADF7598ED3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

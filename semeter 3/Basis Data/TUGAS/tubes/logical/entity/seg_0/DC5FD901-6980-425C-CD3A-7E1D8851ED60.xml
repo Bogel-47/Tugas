@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DC5FD901-6980-425C-CD3A-7E1D8851ED60" name="Report">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-21 14:05:29 UTC</createdTime>
+<ownerDesignName>tubes</ownerDesignName>
+<engineerTo>
+<item key="5DEF5493-553B-B7B6-5123-6EA74ABB13C6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_Report" id="3AEBE0AF-DBF6-F48A-6B72-61248E0B0B31">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-21 14:14:58 UTC</createdTime>
+<ownerDesignName>tubes</ownerDesignName>
+<engineerTo>
+<item key="5DEF5493-553B-B7B6-5123-6EA74ABB13C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Jenis_Report" id="14C54D6B-C56F-261B-170B-BB218B0552CC">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-21 14:15:09 UTC</createdTime>
+<ownerDesignName>tubes</ownerDesignName>
+<engineerTo>
+<item key="5DEF5493-553B-B7B6-5123-6EA74ABB13C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1ED2E0C2-1856-78D6-145A-9FE37038823E" name="Report PK">
+<createdBy>Hargi</createdBy>
+<createdTime>2020-11-21 14:15:08 UTC</createdTime>
+<ownerDesignName>tubes</ownerDesignName>
+<engineerTo>
+<item key="5DEF5493-553B-B7B6-5123-6EA74ABB13C6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3AEBE0AF-DBF6-F48A-6B72-61248E0B0B31</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
