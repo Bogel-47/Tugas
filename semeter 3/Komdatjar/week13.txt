@@ -1,0 +1,84 @@
+Layer 3 lanjutan
+
+shortest path alghorithm menggunakan algoritma djikstra (skrt sebelum uts)
+
+algoritma flooding ()
+setiap paket yang datang dikirimkan ke seluruh tetangganya (adjacent)
+     c
+   /
+a-b-d
+   \e
+
+maka paket dari a ke b lalu ke c atau d atau ke e tetapi tidak akan ke tempat asalnya
+sehingga dari b tidak mungkin ke a jika data dari a jika (gambar terlampir)
+jika data dari a maka akan ke b lalu ke c atau f, lalu dari c akan ke d atau f, atau dari f ke c atau d lalu dari d akan ke e
+sehingga data di e akan menjadi x-b-f-d atau x-b-c-d atau x-b-f-c-d- atau x-b-c-f-d
+jika tidak ada penanganan khusus maka jaringan bisa dipenuhi oleh paket yang sama karena adanya looping untuk mengurangi
+hal ini maka setiap paket mempunyai lifetime maka digunakan hop counter paka header setiap paket, dimana akan diturunkan setiap melewati hop, dan paket akan
+diabaikan ketika counter mencapai nilai 0
+
+bentuknya 
+----------------------------
+destinasi|s|counter|payload|
+----------------------------
+
+jika counter terlalu besar maka ada kemungkinan looping, dan berapa nilai counter tergantung besarnya jaringan atau diameter dari graph. Jika digambar yang dikirimkan
+diameternya 4. jika jaraknya kurang dari diameter kurang dari diameter atau lebih tidak akan apa apa jika kelebihan maka akan muter muter.
+
+keuntungan menggunakan flood adalah tidak memikirkan algoritma tetapi meyakinkan paket sampai ketujuan selama graphnya terhubung (graph = jaringan)
+
+DISTANCE VECTOR ROUTING (memikirkan bobot) diimplementasikan pada protokol RIP (Routing Information Protocol)
+
+waktu tempuh dari satu node ke node lainnya dinyatakan dengan delay jika kasus (gambar terlampir(gambar1.2))
+distance vector routing. (dynamic routing) pada dasarnya jika routing tabble (gambar terlampir (gambar terlampir1.3)) a ingin ke d pilihannya ada 2 yaitu a ke b atau ke f jika dalam kondisi
+standar kita gunakan spanning tree dan apa alasannya memilih node tersebut,
+contoh routing tabble :
+  a  via (table ini ada di node a)  |b  via
+----------                       --------------
+a -   -                              5  -
+b 5   -                              -  -
+c 8   b                              3  -
+d ?   ?                              ?  ?
+e 7   b                              2  -
+f 3   -                              8  a
+
+untuk menghitung jarak menggunakan rtt (round trip time) rtt bisa dilihat dengan ping saat melakukan tes ping maka akan keluar rttnya dengan cara rttnya dibagi 2
+periodic (tukar menukan informasi terkait routing secara periodic)
+delta t (--)
+-|--|--|
+ t1 t2 t3
+saling bertukar informasi dan yang ditukar hanya kolom pertama saja di routing table
+semua yang menggunakan routing dinamis tidak serta merta langsung karena perlu waktu propagasi informasi routing jika delta t terlalu besar maka akan terlalu lama
+tukar menukar informasi routing, jika terlalu kecil maka akan terlalu cepat tukar menukar informasi. besaran optimum delta t tergantung besarnya jaringan.
+     3           2          2
+a----------b----------c-----------d
+
+fokus di b 
+b punya routing table
+a 3  -
+b -  -
+c 2  -
+d 4  c
+
+c
+a 5  b
+b 2  -
+c -  -
+d 2  -
+
+
+jika jaringan ke a terputus maka b menyataka a tidak valid
+maka b akan update menjadi
+a 7  c
+b -  -
+c 2  -
+d 4  c
+
+dan c menjadi
+a 9  b
+b 2  -
+c -  -
+d 2  -
+
+dan akan terus berulang hingga besaran tertentu yang tidak ditolerir maka
+dianggap tidak bisa dicapai
